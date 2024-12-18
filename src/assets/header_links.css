@@ -1,0 +1,36 @@
+
+.sec-one header .header-content .header-links-content i {
+  font-size: 20px;
+  /* color: #; */
+  border: 2px solid var(--col-light);
+  /* background-color: #1e1e1e; */
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  border-radius: 50%;
+  color: var(--col-light);
+  position: relative;
+  /* z-index: 100; */
+  transition: .1s;
+}
+
+.sec-one header .header-content .header-links-content i:hover {
+  border: none;
+  color: #fff;
+  background-image: var(--col-linear);
+}
+
+.sec-one header .header-content .header-links-content i::before {
+  /* content: ''; */
+  /* position: absolute;
+  top: -2.5px;
+  left: -2.5px;
+  width: calc(100% + 5px);
+  height: calc(100% + 5px);
+  background: var(--col-linear);
+  border-radius: 50%;
+  z-index: -1; */
+}
